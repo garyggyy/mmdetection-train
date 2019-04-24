@@ -6,7 +6,6 @@ import torch
 from mmdet.core import get_classes
 from mmdet.datasets import to_tensor
 from mmdet.datasets.transforms import ImageTransform
-from image import imshow_det_bboxes
 
 
 def _prepare_data(img, img_transform, cfg, device):
@@ -75,10 +74,10 @@ def show_result(img, result, dataset='coco', score_thr=0.3, out_file=None):
         for i, bbox in enumerate(bbox_result)
     ]
     labels = np.concatenate(labels)
-    imshow_det_bboxes(
+    mmcv.imshow_det_bboxes(
         img.copy(),
         bboxes,
         labels,
         class_names=class_names,
         score_thr=score_thr,
-        out_file=out_file)
+        show=out_file is None)
