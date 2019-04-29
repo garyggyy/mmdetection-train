@@ -5,4 +5,6 @@
 `Ubuntu 16.04，Python3.5.2，Cuda9+Cudnn7`<br>
 <strong>安装Ptorch 1.0：</strong><br>
 
-`pip install torch==1.0`
+`pip install torch==1.0`<br>
+<strong>安装mmcv：</strong><br>
+
