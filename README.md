@@ -6,7 +6,4 @@ Ubuntu 16.04，Python3.5.2，Cuda9+Cudnn7<br>
 
 > 第一行引用文字
 > 第二行引用文字
-水平线
-***
-代码
-`<hello world>`
+`pip install torch==1.0`
