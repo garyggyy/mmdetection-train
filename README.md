@@ -1,8 +1,8 @@
 # mmdetection-train
-<h2>安装</h2>
-<strong>系统环境：</strong><br>
+<h2>系统环境</h2>
 
-`Ubuntu 16.04，Python3.5.2，Cuda9+Cudnn7`
+`Ubuntu 16.04，Python3.5.2，Cuda9+Cudnn7`<br>
+<h2>安装</h2>
 <strong>安装Ptorch 1.0：</strong><br>
 
 `pip install torch==1.0`<br>
